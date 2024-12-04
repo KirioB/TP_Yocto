@@ -1,0 +1,231 @@
+2764 14:41:16.452449 --- Starting bitbake server pid 2764 at 2024-12-04 14:41:16.452426 ---
+2764 14:41:16.453465 Started bitbake server pid 2764
+2764 14:41:16.453705 Entering server connection loop
+2764 14:41:16.453844 Lockfile is: /home/invite/w/src/esme-3s7/esme-3s7/bitbake.lock
+Socket is /home/invite/w/src/esme-3s7/esme-3s7/bitbake.sock (True)
+2764 14:41:16.454426 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+2764 14:41:16.455572 Processing Client
+2764 14:41:16.455626 Connecting Client
+2764 14:41:16.455947 Running command ['setFeatures', [2, 1]]
+2764 14:41:16.455995 Sending reply (None, None)
+2764 14:41:16.456068 Command Completed (socket: True)
+2764 14:41:16.457033 Running command ['updateConfig', {'halt': True, 'force': False, 'invalidate_stamp': None, 'dry_run': False, 'dump_signatures': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'nosetscene': False, 'setsceneonly': False, 'skipsetscene': False, 'runall': [], 'runonly': None, 'writeeventlog': None, 'build_verbose_shell': False, 'build_verbose_stdout': False, 'default_loglevel': 20, 'debug_domains': {}}, {'SHELL': '/bin/bash', 'BB_ENV_PASSTHROUGH_ADDITIONS': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'PWD': '/home/invite/w/src/esme-3s7/esme-3s7', 'LOGNAME': 'invite', 'HOME': '/home/invite', 'BBPATH': '/home/invite/w/src/esme-3s7/esme-3s7', 'USER': 'invite', 'PATH': '/home/invite/w/src/poky/scripts:/home/invite/w/src/poky/bitbake/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ALL': 'en_US.UTF-8', 'OE_ADDED_PATHS': '/home/invite/w/src/poky/scripts:/home/invite/w/src/poky/bitbake/bin:', 'XDG_SESSION_TYPE': 'tty', 'MOTD_SHOWN': 'pam', 'LANG': 'fr_FR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_CONNECTION': '10.0.2.2 52385 10.0.2.15 22', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/invite/w/src/poky/bitbake/lib:', 'TERM': 'xterm-256color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SHLVL': '1', 'XDG_SESSION_ID': '2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSH_CLIENT': '10.0.2.2 52385 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'BUILDDIR': '/home/invite/w/src/esme-3s7/esme-3s7', 'SSH_TTY': '/dev/pts/0', 'OLDPWD': '/home/invite/w/src/esme-3s7/esme-3s7', '_': '/home/invite/w/src/poky/bitbake/bin/bitbake-layers'}, ['/home/invite/w/src/poky/bitbake/bin/bitbake-layers', 'create-layer', 'meta-esme-images']]
+2764 14:41:17.423957 Base config valid
+2764 14:41:17.514277 Sending reply (None, None)
+2764 14:41:17.514564 Command Completed (socket: True)
+2764 14:41:17.515277 Running command ['parseConfiguration']
+2764 14:41:17.516753 Sending reply (None, None)
+2764 14:41:17.516894 Command Completed (socket: True)
+2764 14:41:17.517724 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBMULTICONFIG',), {}]
+2764 14:41:17.517935 Sending reply (None, None)
+2764 14:41:17.518033 Command Completed (socket: True)
+2764 14:41:17.518602 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBPATH',), {}]
+2764 14:41:17.518747 Sending reply ('/home/invite/w/src/poky/meta-poky:/home/invite/w/src/esme-3s7/esme-3s7:/home/invite/w/src/poky/meta:/home/invite/w/src/poky/meta-yocto-bsp', None)
+2764 14:41:17.518856 Command Completed (socket: True)
+2764 14:41:17.545938 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+2764 14:41:17.546105 Sending reply ('   /home/invite/w/src/poky/meta   /home/invite/w/src/poky/meta-poky   /home/invite/w/src/poky/meta-yocto-bsp   ', None)
+2764 14:41:17.546232 Command Completed (socket: True)
+2764 14:41:17.546943 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+2764 14:41:17.547195 Sending reply ({'core': '/home/invite/w/src/poky/meta/conf/layer.conf', 'yocto': '/home/invite/w/src/poky/meta-poky/conf/layer.conf', 'yoctobsp': '/home/invite/w/src/poky/meta-yocto-bsp/conf/layer.conf'}, None)
+2764 14:41:17.547312 Command Completed (socket: True)
+2764 14:41:17.557620 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+2764 14:41:17.557737 Sending reply ('   /home/invite/w/src/poky/meta   /home/invite/w/src/poky/meta-poky   /home/invite/w/src/poky/meta-yocto-bsp   ', None)
+2764 14:41:17.557978 Command Completed (socket: True)
+2764 14:41:17.558504 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+2764 14:41:17.558659 Sending reply ({'core': '/home/invite/w/src/poky/meta/conf/layer.conf', 'yocto': '/home/invite/w/src/poky/meta-poky/conf/layer.conf', 'yoctobsp': '/home/invite/w/src/poky/meta-yocto-bsp/conf/layer.conf'}, None)
+2764 14:41:17.558795 Command Completed (socket: True)
+2764 14:41:17.560737 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+2764 14:41:17.560870 Sending reply ('   /home/invite/w/src/poky/meta   /home/invite/w/src/poky/meta-poky   /home/invite/w/src/poky/meta-yocto-bsp   ', None)
+2764 14:41:17.560983 Command Completed (socket: True)
+2764 14:41:17.561472 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+2764 14:41:17.561595 Sending reply ({'core': '/home/invite/w/src/poky/meta/conf/layer.conf', 'yocto': '/home/invite/w/src/poky/meta-poky/conf/layer.conf', 'yoctobsp': '/home/invite/w/src/poky/meta-yocto-bsp/conf/layer.conf'}, None)
+2764 14:41:17.561683 Command Completed (socket: True)
+2764 14:41:17.563619 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+2764 14:41:17.563693 Sending reply ('   /home/invite/w/src/poky/meta   /home/invite/w/src/poky/meta-poky   /home/invite/w/src/poky/meta-yocto-bsp   ', None)
+2764 14:41:17.563793 Command Completed (socket: True)
+2764 14:41:17.564293 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+2764 14:41:17.564437 Sending reply ({'core': '/home/invite/w/src/poky/meta/conf/layer.conf', 'yocto': '/home/invite/w/src/poky/meta-poky/conf/layer.conf', 'yoctobsp': '/home/invite/w/src/poky/meta-yocto-bsp/conf/layer.conf'}, None)
+2764 14:41:17.564536 Command Completed (socket: True)
+2764 14:41:17.565890 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+2764 14:41:17.565951 Sending reply ('   /home/invite/w/src/poky/meta   /home/invite/w/src/poky/meta-poky   /home/invite/w/src/poky/meta-yocto-bsp   ', None)
+2764 14:41:17.566034 Command Completed (socket: True)
+2764 14:41:17.566571 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+2764 14:41:17.566698 Sending reply ({'core': '/home/invite/w/src/poky/meta/conf/layer.conf', 'yocto': '/home/invite/w/src/poky/meta-poky/conf/layer.conf', 'yoctobsp': '/home/invite/w/src/poky/meta-yocto-bsp/conf/layer.conf'}, None)
+2764 14:41:17.566805 Command Completed (socket: True)
+2764 14:41:17.568132 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBPATH',), {}]
+2764 14:41:17.568214 Sending reply ('/home/invite/w/src/poky/meta-poky:/home/invite/w/src/esme-3s7/esme-3s7:/home/invite/w/src/poky/meta:/home/invite/w/src/poky/meta-yocto-bsp', None)
+2764 14:41:17.568304 Command Completed (socket: True)
+2764 14:41:17.572995 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+2764 14:41:17.573081 Sending reply ('   /home/invite/w/src/poky/meta   /home/invite/w/src/poky/meta-poky   /home/invite/w/src/poky/meta-yocto-bsp   ', None)
+2764 14:41:17.573214 Command Completed (socket: True)
+2764 14:41:17.573771 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+2764 14:41:17.574033 Sending reply ({'core': '/home/invite/w/src/poky/meta/conf/layer.conf', 'yocto': '/home/invite/w/src/poky/meta-poky/conf/layer.conf', 'yoctobsp': '/home/invite/w/src/poky/meta-yocto-bsp/conf/layer.conf'}, None)
+2764 14:41:17.574146 Command Completed (socket: True)
+2764 14:41:17.579788 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('LAYERSERIES_CORENAMES',), {}]
+2764 14:41:17.579972 Sending reply ('scarthgap', None)
+2764 14:41:17.580085 Command Completed (socket: True)
+2764 14:41:17.583847 Running command ['clientComplete']
+2764 14:41:17.584080 Registering idle function <bound method Command.runAsyncCommand of <bb.command.Command object at 0x7f0d581c76d0>>
+2764 14:41:17.584102 Sending reply (True, None)
+2764 14:41:17.584203 Command Completed (socket: True)
+2764 14:41:17.642615 Processing Client
+2764 14:41:17.642817 Disconnecting Client (socket: True)
+2764 14:41:17.644377 Removing idle function <bound method Command.runAsyncCommand of <bb.command.Command object at 0x7f0d581c76d0>>
+2764 14:41:17.645078 No timeout, exiting.
+2764 14:41:17.757070 Exiting (socket: True)
+2764 14:41:17.762607 Exiting as we could obtain the lock
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/invite/w/src/esme-3s7/esme-3s7/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+2775 14:41:49.591190 --- Starting bitbake server pid 2775 at 2024-12-04 14:41:49.591153 ---
+2775 14:41:49.593020 Started bitbake server pid 2775
+2775 14:41:49.593305 Entering server connection loop
+2775 14:41:49.593337 Lockfile is: /home/invite/w/src/esme-3s7/esme-3s7/bitbake.lock
+Socket is /home/invite/w/src/esme-3s7/esme-3s7/bitbake.sock (True)
+2775 14:41:49.594074 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+2775 14:41:49.595703 Processing Client
+2775 14:41:49.595867 Connecting Client
+2775 14:41:49.596283 Running command ['setFeatures', [2, 1]]
+2775 14:41:49.596351 Sending reply (None, None)
+2775 14:41:49.596446 Command Completed (socket: True)
+2775 14:41:49.597465 Running command ['updateConfig', {'halt': True, 'force': False, 'invalidate_stamp': None, 'dry_run': False, 'dump_signatures': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'nosetscene': False, 'setsceneonly': False, 'skipsetscene': False, 'runall': [], 'runonly': None, 'writeeventlog': None, 'build_verbose_shell': False, 'build_verbose_stdout': False, 'default_loglevel': 20, 'debug_domains': {}}, {'SHELL': '/bin/bash', 'BB_ENV_PASSTHROUGH_ADDITIONS': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'PWD': '/home/invite/w/src/esme-3s7/esme-3s7', 'LOGNAME': 'invite', 'HOME': '/home/invite', 'BBPATH': '/home/invite/w/src/esme-3s7/esme-3s7', 'USER': 'invite', 'PATH': '/home/invite/w/src/poky/scripts:/home/invite/w/src/poky/bitbake/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ALL': 'en_US.UTF-8', 'OE_ADDED_PATHS': '/home/invite/w/src/poky/scripts:/home/invite/w/src/poky/bitbake/bin:', 'XDG_SESSION_TYPE': 'tty', 'MOTD_SHOWN': 'pam', 'LANG': 'fr_FR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_CONNECTION': '10.0.2.2 52385 10.0.2.15 22', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/invite/w/src/poky/bitbake/lib:', 'TERM': 'xterm-256color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SHLVL': '1', 'XDG_SESSION_ID': '2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSH_CLIENT': '10.0.2.2 52385 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'BUILDDIR': '/home/invite/w/src/esme-3s7/esme-3s7', 'SSH_TTY': '/dev/pts/0', 'OLDPWD': '/home/invite/w/src/esme-3s7/esme-3s7', '_': '/home/invite/w/src/poky/bitbake/bin/bitbake-layers'}, ['/home/invite/w/src/poky/bitbake/bin/bitbake-layers', 'create-layer', 'meta-esme-custom']]
+2775 14:41:50.267300 Base config valid
+2775 14:41:50.292938 Sending reply (None, None)
+2775 14:41:50.293143 Command Completed (socket: True)
+2775 14:41:50.293547 Running command ['parseConfiguration']
+2775 14:41:50.294488 Sending reply (None, None)
+2775 14:41:50.294575 Command Completed (socket: True)
+2775 14:41:50.294958 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBMULTICONFIG',), {}]
+2775 14:41:50.295067 Sending reply (None, None)
+2775 14:41:50.295142 Command Completed (socket: True)
+2775 14:41:50.295309 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBPATH',), {}]
+2775 14:41:50.295397 Sending reply ('/home/invite/w/src/poky/meta-poky:/home/invite/w/src/esme-3s7/esme-3s7:/home/invite/w/src/poky/meta:/home/invite/w/src/poky/meta-yocto-bsp', None)
+2775 14:41:50.295447 Command Completed (socket: True)
+2775 14:41:50.301501 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+2775 14:41:50.301595 Sending reply ('   /home/invite/w/src/poky/meta   /home/invite/w/src/poky/meta-poky   /home/invite/w/src/poky/meta-yocto-bsp   ', None)
+2775 14:41:50.301668 Command Completed (socket: True)
+2775 14:41:50.301963 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+2775 14:41:50.302130 Sending reply ({'core': '/home/invite/w/src/poky/meta/conf/layer.conf', 'yocto': '/home/invite/w/src/poky/meta-poky/conf/layer.conf', 'yoctobsp': '/home/invite/w/src/poky/meta-yocto-bsp/conf/layer.conf'}, None)
+2775 14:41:50.302203 Command Completed (socket: True)
+2775 14:41:50.303445 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+2775 14:41:50.303492 Sending reply ('   /home/invite/w/src/poky/meta   /home/invite/w/src/poky/meta-poky   /home/invite/w/src/poky/meta-yocto-bsp   ', None)
+2775 14:41:50.303547 Command Completed (socket: True)
+2775 14:41:50.303739 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+2775 14:41:50.303813 Sending reply ({'core': '/home/invite/w/src/poky/meta/conf/layer.conf', 'yocto': '/home/invite/w/src/poky/meta-poky/conf/layer.conf', 'yoctobsp': '/home/invite/w/src/poky/meta-yocto-bsp/conf/layer.conf'}, None)
+2775 14:41:50.303915 Command Completed (socket: True)
+2775 14:41:50.305685 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+2775 14:41:50.305715 Sending reply ('   /home/invite/w/src/poky/meta   /home/invite/w/src/poky/meta-poky   /home/invite/w/src/poky/meta-yocto-bsp   ', None)
+2775 14:41:50.305758 Command Completed (socket: True)
+2775 14:41:50.305905 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+2775 14:41:50.305952 Sending reply ({'core': '/home/invite/w/src/poky/meta/conf/layer.conf', 'yocto': '/home/invite/w/src/poky/meta-poky/conf/layer.conf', 'yoctobsp': '/home/invite/w/src/poky/meta-yocto-bsp/conf/layer.conf'}, None)
+2775 14:41:50.305992 Command Completed (socket: True)
+2775 14:41:50.306832 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+2775 14:41:50.306859 Sending reply ('   /home/invite/w/src/poky/meta   /home/invite/w/src/poky/meta-poky   /home/invite/w/src/poky/meta-yocto-bsp   ', None)
+2775 14:41:50.306901 Command Completed (socket: True)
+2775 14:41:50.307097 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+2775 14:41:50.307172 Sending reply ({'core': '/home/invite/w/src/poky/meta/conf/layer.conf', 'yocto': '/home/invite/w/src/poky/meta-poky/conf/layer.conf', 'yoctobsp': '/home/invite/w/src/poky/meta-yocto-bsp/conf/layer.conf'}, None)
+2775 14:41:50.307229 Command Completed (socket: True)
+2775 14:41:50.307939 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+2775 14:41:50.307969 Sending reply ('   /home/invite/w/src/poky/meta   /home/invite/w/src/poky/meta-poky   /home/invite/w/src/poky/meta-yocto-bsp   ', None)
+2775 14:41:50.308012 Command Completed (socket: True)
+2775 14:41:50.308151 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+2775 14:41:50.308197 Sending reply ({'core': '/home/invite/w/src/poky/meta/conf/layer.conf', 'yocto': '/home/invite/w/src/poky/meta-poky/conf/layer.conf', 'yoctobsp': '/home/invite/w/src/poky/meta-yocto-bsp/conf/layer.conf'}, None)
+2775 14:41:50.308236 Command Completed (socket: True)
+2775 14:41:50.308824 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBPATH',), {}]
+2775 14:41:50.308885 Sending reply ('/home/invite/w/src/poky/meta-poky:/home/invite/w/src/esme-3s7/esme-3s7:/home/invite/w/src/poky/meta:/home/invite/w/src/poky/meta-yocto-bsp', None)
+2775 14:41:50.308954 Command Completed (socket: True)
+2775 14:41:50.310055 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+2775 14:41:50.310108 Sending reply ('   /home/invite/w/src/poky/meta   /home/invite/w/src/poky/meta-poky   /home/invite/w/src/poky/meta-yocto-bsp   ', None)
+2775 14:41:50.310160 Command Completed (socket: True)
+2775 14:41:50.310322 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+2775 14:41:50.310388 Sending reply ({'core': '/home/invite/w/src/poky/meta/conf/layer.conf', 'yocto': '/home/invite/w/src/poky/meta-poky/conf/layer.conf', 'yoctobsp': '/home/invite/w/src/poky/meta-yocto-bsp/conf/layer.conf'}, None)
+2775 14:41:50.310436 Command Completed (socket: True)
+2775 14:41:50.312244 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('LAYERSERIES_CORENAMES',), {}]
+2775 14:41:50.312338 Sending reply ('scarthgap', None)
+2775 14:41:50.312425 Command Completed (socket: True)
+2775 14:41:50.313604 Running command ['clientComplete']
+2775 14:41:50.313892 Registering idle function <bound method Command.runAsyncCommand of <bb.command.Command object at 0x7d320a0c76d0>>
+2775 14:41:50.313933 Sending reply (True, None)
+2775 14:41:50.314032 Command Completed (socket: True)
+2775 14:41:50.383278 Processing Client
+2775 14:41:50.383628 Disconnecting Client (socket: True)
+2775 14:41:50.385557 Removing idle function <bound method Command.runAsyncCommand of <bb.command.Command object at 0x7d320a0c76d0>>
+2775 14:41:50.386232 No timeout, exiting.
+2775 14:41:50.489369 Exiting (socket: True)
+2775 14:41:50.495593 Exiting as we could obtain the lock
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/invite/w/src/esme-3s7/esme-3s7/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+2789 14:43:00.076277 --- Starting bitbake server pid 2789 at 2024-12-04 14:43:00.076254 ---
+2789 14:43:00.077199 Started bitbake server pid 2789
+2789 14:43:00.077783 Entering server connection loop
+2789 14:43:00.077823 Lockfile is: /home/invite/w/src/esme-3s7/esme-3s7/bitbake.lock
+Socket is /home/invite/w/src/esme-3s7/esme-3s7/bitbake.sock (True)
+2789 14:43:00.078423 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+2789 14:43:00.079789 Processing Client
+2789 14:43:00.079857 Connecting Client
+2789 14:43:00.080151 Running command ['setFeatures', [2, 1]]
+2789 14:43:00.080198 Sending reply (None, None)
+2789 14:43:00.080268 Command Completed (socket: True)
+2789 14:43:00.081193 Running command ['updateConfig', {'halt': True, 'force': False, 'invalidate_stamp': None, 'dry_run': False, 'dump_signatures': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'nosetscene': False, 'setsceneonly': False, 'skipsetscene': False, 'runall': [], 'runonly': None, 'writeeventlog': None, 'build_verbose_shell': False, 'build_verbose_stdout': False, 'default_loglevel': 20, 'debug_domains': {}}, {'SHELL': '/bin/bash', 'BB_ENV_PASSTHROUGH_ADDITIONS': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'PWD': '/home/invite/w/src/esme-3s7/esme-3s7', 'LOGNAME': 'invite', 'HOME': '/home/invite', 'BBPATH': '/home/invite/w/src/esme-3s7/esme-3s7', 'USER': 'invite', 'PATH': '/home/invite/w/src/poky/scripts:/home/invite/w/src/poky/bitbake/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ALL': 'en_US.UTF-8', 'OE_ADDED_PATHS': '/home/invite/w/src/poky/scripts:/home/invite/w/src/poky/bitbake/bin:', 'XDG_SESSION_TYPE': 'tty', 'MOTD_SHOWN': 'pam', 'LANG': 'fr_FR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_CONNECTION': '10.0.2.2 52385 10.0.2.15 22', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/invite/w/src/poky/bitbake/lib:', 'TERM': 'xterm-256color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SHLVL': '1', 'XDG_SESSION_ID': '2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSH_CLIENT': '10.0.2.2 52385 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'BUILDDIR': '/home/invite/w/src/esme-3s7/esme-3s7', 'SSH_TTY': '/dev/pts/0', 'OLDPWD': '/home/invite/w/src/esme-3s7/esme-3s7', '_': '/home/invite/w/src/poky/bitbake/bin/bitbake-layers'}, ['/home/invite/w/src/poky/bitbake/bin/bitbake-layers', 'show-layers']]
+2789 14:43:00.782867 Base config valid
+2789 14:43:00.806800 Sending reply (None, None)
+2789 14:43:00.807099 Command Completed (socket: True)
+2789 14:43:00.807654 Running command ['parseConfiguration']
+2789 14:43:00.808710 Sending reply (None, None)
+2789 14:43:00.808862 Command Completed (socket: True)
+2789 14:43:00.809380 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBMULTICONFIG',), {}]
+2789 14:43:00.809482 Sending reply (None, None)
+2789 14:43:00.809555 Command Completed (socket: True)
+2789 14:43:00.810094 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBPATH',), {}]
+2789 14:43:00.810211 Sending reply ('/home/invite/w/src/poky/meta-poky:/home/invite/w/src/esme-3s7/esme-3s7:/home/invite/w/src/poky/meta:/home/invite/w/src/poky/meta-yocto-bsp', None)
+2789 14:43:00.810285 Command Completed (socket: True)
+2789 14:43:00.818948 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+2789 14:43:00.819115 Sending reply ('   /home/invite/w/src/poky/meta   /home/invite/w/src/poky/meta-poky   /home/invite/w/src/poky/meta-yocto-bsp   ', None)
+2789 14:43:00.819233 Command Completed (socket: True)
+2789 14:43:00.819809 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+2789 14:43:00.820075 Sending reply ({'core': '/home/invite/w/src/poky/meta/conf/layer.conf', 'yocto': '/home/invite/w/src/poky/meta-poky/conf/layer.conf', 'yoctobsp': '/home/invite/w/src/poky/meta-yocto-bsp/conf/layer.conf'}, None)
+2789 14:43:00.820208 Command Completed (socket: True)
+2789 14:43:00.822101 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+2789 14:43:00.822170 Sending reply ('   /home/invite/w/src/poky/meta   /home/invite/w/src/poky/meta-poky   /home/invite/w/src/poky/meta-yocto-bsp   ', None)
+2789 14:43:00.822260 Command Completed (socket: True)
+2789 14:43:00.822802 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+2789 14:43:00.822946 Sending reply ({'core': '/home/invite/w/src/poky/meta/conf/layer.conf', 'yocto': '/home/invite/w/src/poky/meta-poky/conf/layer.conf', 'yoctobsp': '/home/invite/w/src/poky/meta-yocto-bsp/conf/layer.conf'}, None)
+2789 14:43:00.823095 Command Completed (socket: True)
+2789 14:43:00.825329 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+2789 14:43:00.825403 Sending reply ('   /home/invite/w/src/poky/meta   /home/invite/w/src/poky/meta-poky   /home/invite/w/src/poky/meta-yocto-bsp   ', None)
+2789 14:43:00.825500 Command Completed (socket: True)
+2789 14:43:00.826140 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+2789 14:43:00.826275 Sending reply ({'core': '/home/invite/w/src/poky/meta/conf/layer.conf', 'yocto': '/home/invite/w/src/poky/meta-poky/conf/layer.conf', 'yoctobsp': '/home/invite/w/src/poky/meta-yocto-bsp/conf/layer.conf'}, None)
+2789 14:43:00.826384 Command Completed (socket: True)
+2789 14:43:00.829351 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+2789 14:43:00.829452 Sending reply ('   /home/invite/w/src/poky/meta   /home/invite/w/src/poky/meta-poky   /home/invite/w/src/poky/meta-yocto-bsp   ', None)
+2789 14:43:00.829550 Command Completed (socket: True)
+2789 14:43:00.830121 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+2789 14:43:00.830252 Sending reply ({'core': '/home/invite/w/src/poky/meta/conf/layer.conf', 'yocto': '/home/invite/w/src/poky/meta-poky/conf/layer.conf', 'yoctobsp': '/home/invite/w/src/poky/meta-yocto-bsp/conf/layer.conf'}, None)
+2789 14:43:00.830348 Command Completed (socket: True)
+2789 14:43:00.831599 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBPATH',), {}]
+2789 14:43:00.831676 Sending reply ('/home/invite/w/src/poky/meta-poky:/home/invite/w/src/esme-3s7/esme-3s7:/home/invite/w/src/poky/meta:/home/invite/w/src/poky/meta-yocto-bsp', None)
+2789 14:43:00.831791 Command Completed (socket: True)
+2789 14:43:00.833525 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+2789 14:43:00.833588 Sending reply ('   /home/invite/w/src/poky/meta   /home/invite/w/src/poky/meta-poky   /home/invite/w/src/poky/meta-yocto-bsp   ', None)
+2789 14:43:00.833671 Command Completed (socket: True)
+2789 14:43:00.834163 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+2789 14:43:00.834259 Sending reply ({'core': '/home/invite/w/src/poky/meta/conf/layer.conf', 'yocto': '/home/invite/w/src/poky/meta-poky/conf/layer.conf', 'yoctobsp': '/home/invite/w/src/poky/meta-yocto-bsp/conf/layer.conf'}, None)
+2789 14:43:00.834345 Command Completed (socket: True)
+2789 14:43:00.835493 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+2789 14:43:00.835558 Sending reply ('   /home/invite/w/src/poky/meta   /home/invite/w/src/poky/meta-poky   /home/invite/w/src/poky/meta-yocto-bsp   ', None)
+2789 14:43:00.835646 Command Completed (socket: True)
+2789 14:43:00.836143 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+2789 14:43:00.836262 Sending reply ({'core': '/home/invite/w/src/poky/meta/conf/layer.conf', 'yocto': '/home/invite/w/src/poky/meta-poky/conf/layer.conf', 'yoctobsp': '/home/invite/w/src/poky/meta-yocto-bsp/conf/layer.conf'}, None)
+2789 14:43:00.836346 Command Completed (socket: True)
+2789 14:43:00.837889 Running command ['getLayerPriorities']
+2789 14:43:00.838091 Sending reply ([('core', '^/home/invite/w/src/poky/meta/', '^/home/invite/w/src/poky/meta/', 5), ('yocto', '^/home/invite/w/src/poky/meta-poky/', '^/home/invite/w/src/poky/meta-poky/', 5), ('yoctobsp', '^/home/invite/w/src/poky/meta-yocto-bsp/', '^/home/invite/w/src/poky/meta-yocto-bsp/', 5)], None)
+2789 14:43:00.838213 Command Completed (socket: True)
+2789 14:43:00.839241 Running command ['clientComplete']
+2789 14:43:00.839372 Registering idle function <bound method Command.runAsyncCommand of <bb.command.Command object at 0x7a72df0cb6d0>>
+2789 14:43:00.839386 Sending reply (True, None)
+2789 14:43:00.839453 Command Completed (socket: True)
+2789 14:43:00.854821 Processing Client
+2789 14:43:00.854982 Disconnecting Client (socket: True)
+2789 14:43:00.856266 Removing idle function <bound method Command.runAsyncCommand of <bb.command.Command object at 0x7a72df0cb6d0>>
+2789 14:43:00.857175 No timeout, exiting.
+2789 14:43:00.980487 Exiting (socket: True)
+2789 14:43:00.986319 Exiting as we could obtain the lock
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/invite/w/src/esme-3s7/esme-3s7/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
