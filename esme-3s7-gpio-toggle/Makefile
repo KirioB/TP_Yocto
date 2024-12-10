@@ -25,6 +25,12 @@ install: $(PROGRAM)
 	mkdir -p $(INSTALL_DIR)/usr/bin
 	cp $(PROGRAM) $(INSTALL_DIR)/usr/bin/
 
+	# Créer le répertoire pour le script et le copier avec chmod 0755
+	mkdir -p $(INSTALL_DIR)/etc/init.d
+	cp esme-gpio26-toggle $(INSTALL_DIR)/etc/init.d/
+	chmod 0755 $(INSTALL_DIR)/etc/init.d/esme-gpio26-toggle
+
+
 # Cible de nettoyage
 clean:
 	-$(RM) -f $(PROGRAM)
